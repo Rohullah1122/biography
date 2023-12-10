@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">biography</string>
+    <string name="prograss_bar">prograss_bar</string>
+    <string name="txtusername">txt_username</string>
+    <string name="txtpass">txt_pass</string>
+    <string name="imguser">img_user</string>
+    <string name="imgrelative">img_relative</string>
+    <string name="txtrelname">txt_relativename</string>
+    <string name="txtrelationship">txt_relationship</string>
+    <string name="txtuserage">txt_userage</string>
+    <string name="txt_relationage">txt_relativeage</string>
+    <string name="btn_register">btn_register</string>
+    <string name="btn_addrelative">btn_addrelative</string>
+    <string name="txt_relativecontact">txt_rel_contact</string>
+    <string name="txtdob">txt_dob</string>
+    <string name="txtrelativegender">txt_rel_gender</string>
+    <string name="framlayout_main">framlayout_main</string>
+    <string name="hinforspinner">select the relationship</string>
+    <string name="spinner_prompt">Select an item</string>
+    <string name="open_navigation">open_navigation</string>
+    <string name="close_navigation">close_navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

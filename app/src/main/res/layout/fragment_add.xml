@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.fragment_add">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity_register"
+        android:background="@color/ferozaye"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/profileimg"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgrel"
+                android:layout_width="215dp"
+                android:layout_height="282dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:foregroundGravity="center"
+                android:src="@drawable/profile" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="0dp">
+
+                <EditText
+                    android:id="@+id/txtrelativename"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="24dp"
+                    android:inputType="textPersonName"
+                    android:hint="Enter your Relative Name"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/xml_round_shape"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:drawableStart="@drawable/icon_user"
+                    />
+
+
+           <Spinner
+               android:layout_width="370dp"
+               android:layout_height="50dp"
+               android:background="@drawable/xml_round_shape"
+               android:layout_gravity="center"
+               android:layout_marginTop="10dp"
+               android:textAlignment="center"
+               android:id="@+id/spinnerelationship"
+
+               />
+
+
+                <EditText
+                    android:id="@+id/ptxtphone"
+                    android:layout_width="367dp"
+                    android:layout_height="118dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/xml_round_shape"
+                    android:drawableStart="@drawable/icon_info"
+                    android:drawableLeft="@drawable/icon_phone"
+                    android:gravity="start"
+                    android:hint="Enter some info about him"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="168dp"
+                    android:background="@drawable/btn_style"
+                    android:backgroundTint="@color/lighred"
+                    android:gravity="center"
+                    android:text="Add"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</FrameLayout>
